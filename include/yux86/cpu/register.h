@@ -1,5 +1,5 @@
-#ifndef YUX86_CPU_CPU_H_
-#define YUX86_CPU_CPU_H_
+#ifndef YUX86_CPU_REGISTER_H_
+#define YUX86_CPU_REGISTER_H_
 
 #include <stdbool.h>
 #include <stdint.h>
@@ -27,7 +27,7 @@ typedef struct _EflagsRegister {
             Register32 iopl:2;          // I/O Privilege Level
             Register32 of:1;            // Overflow Flag
             Register32 df:1;            // Direction Flag
-            Register32 if:1;            // Interrupt Enable Flag
+            Register32 if_:1;            // Interrupt Enable Flag
             Register32 tf:1;            // Trap Flag
             Register32 sf:1;            // Sign Flag
             Register32 zf:1;            // Zero Flag
@@ -178,5 +178,5 @@ typedef struct _RegisterGroup {
 }
 #endif //  __cplusplus
 
-#endif // YUX86_CPU_CPU_H_
+#endif // YUX86_CPU_REGISTER_H_
 
