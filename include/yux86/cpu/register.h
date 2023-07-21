@@ -179,4 +179,3 @@ typedef struct _RegisterGroup {
 #endif //  __cplusplus
 
 #endif // YUX86_CPU_REGISTER_H_
-
