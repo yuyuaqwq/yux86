@@ -10,7 +10,7 @@ extern "C" {
 
 
 typedef struct _Cpu {
-    
+  
 } Cpu;
 
 

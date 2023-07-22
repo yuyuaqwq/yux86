@@ -11,7 +11,7 @@ extern "C" {
 #define YUX86_MEMORY_PHYSICAL_MEMORY_BYTE_COUNT 1024 * 1024
 
 typedef struct _Memory {
-	uint8_t main_memory[YUX86_MEMORY_PHYSICAL_MEMORY_BYTE_COUNT];
+  uint8_t main_memory[YUX86_MEMORY_PHYSICAL_MEMORY_BYTE_COUNT];
 } Memory;
 
 typedef VirtualAddr;
